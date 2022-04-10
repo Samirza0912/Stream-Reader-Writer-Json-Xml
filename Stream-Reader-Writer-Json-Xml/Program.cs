@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace Stream_Reader_Writer_Json_Xml
 {
@@ -6,7 +7,11 @@ namespace Stream_Reader_Writer_Json_Xml
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            if (!File.Exists())
+            {
+                File.Create());
+
+            }
         }
     }
 }
