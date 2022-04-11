@@ -7,9 +7,9 @@ namespace Stream_Reader_Writer_Json_Xml
     {
         static void Main(string[] args)
         {
-            if (!File.Exists())
+            if (!File.Exists(@"Air\Samir\desktop\samiramiraslanov$\Files"))
             {
-                File.Create());
+                File.Create(@"Air\Samir\desktop\samiramiraslanov$\Files\Database.json");
 
             }
         }
