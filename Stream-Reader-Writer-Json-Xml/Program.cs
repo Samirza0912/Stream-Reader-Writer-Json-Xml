@@ -40,7 +40,7 @@ namespace Stream_Reader_Writer_Json_Xml
                     department.GetEmployeeById(id);
                     break;
                 case 3:
-
+                    Console.WriteLine("alo");
                     break;
                 case 4:
                     break;
@@ -53,10 +53,9 @@ namespace Stream_Reader_Writer_Json_Xml
         public static void Check()
         {
             Console.WriteLine("Menu");
-            Console.WriteLine("1.Share Status \n" +
-                "2.Get All Statuses \n" +
-                "3.Get Status by Id \n" +
-                "4.Filter Status by ID \n" +
+            Console.WriteLine("1.Add employee \n" +
+                "2.Get employee by id \n" +
+                "3.Remove employee \n" +
                 "0.end program");
             Console.WriteLine("input your choice: ");
         }
