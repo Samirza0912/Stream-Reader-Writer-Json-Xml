@@ -17,16 +17,12 @@ namespace Stream_Reader_Writer_Json_Xml.Models
         private static int _Id;
         public int ID { get; }
         public string Name { get; set; }
-        public string EmployeesList { get; set; }
-        
 
-        public Department(string name, string employeeslist)
+        public Department(string name)
         {
             _Id++;
             _Id = ID;
             Name = name;
-            EmployeesList = employeeslist;
-            
         }
 
         List<Employee> employees = new List<Employee>();

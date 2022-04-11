@@ -18,7 +18,7 @@ namespace Stream_Reader_Writer_Json_Xml.Models
         public Employee(string name, double salary)
         {
             _Id++;
-            _Id = ID;
+            ID=_Id;
             Name = name;
             Salary = salary;
             IsDeleted = false;
