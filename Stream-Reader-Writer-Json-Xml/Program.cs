@@ -40,7 +40,7 @@ namespace Stream_Reader_Writer_Json_Xml
                     department.GetEmployeeById(id);
                     break;
                 case 3:
-                    Console.WriteLine("alo");
+                    Console.WriteLine();
                     break;
                 case 4:
                     break;
